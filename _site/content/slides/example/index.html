@@ -1,0 +1,159 @@
+<h1 id="create-slides-in-markdown-with-academic">Create slides in Markdown with Academic</h1>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://sourcethemes.com/academic/">Academic</a></td>
+      <td><a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides">Documentation</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="features">Features</h2>
+
+<ul>
+  <li>Efficiently write slides in Markdown</li>
+  <li>3-in-1: Create, Present, and Publish your slides</li>
+  <li>Supports speaker notes</li>
+  <li>Mobile friendly slides</li>
+</ul>
+
+<hr />
+
+<h2 id="controls">Controls</h2>
+
+<ul>
+  <li>Next: <code class="language-plaintext highlighter-rouge">Right Arrow</code> or <code class="language-plaintext highlighter-rouge">Space</code></li>
+  <li>Previous: <code class="language-plaintext highlighter-rouge">Left Arrow</code></li>
+  <li>Start: <code class="language-plaintext highlighter-rouge">Home</code></li>
+  <li>Finish: <code class="language-plaintext highlighter-rouge">End</code></li>
+  <li>Overview: <code class="language-plaintext highlighter-rouge">Esc</code></li>
+  <li>Speaker notes: <code class="language-plaintext highlighter-rouge">S</code></li>
+  <li>Fullscreen: <code class="language-plaintext highlighter-rouge">F</code></li>
+  <li>Zoom: <code class="language-plaintext highlighter-rouge">Alt + Click</code></li>
+  <li><a href="https://github.com/hakimel/reveal.js#pdf-export">PDF Export</a>: <code class="language-plaintext highlighter-rouge">E</code></li>
+</ul>
+
+<hr />
+
+<h2 id="code-highlighting">Code Highlighting</h2>
+
+<p>Inline code: <code class="language-plaintext highlighter-rouge">variable</code></p>
+
+<p>Code block:</p>
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">porridge</span> <span class="o">=</span> <span class="s">"blueberry"</span>
+<span class="k">if</span> <span class="n">porridge</span> <span class="o">==</span> <span class="s">"blueberry"</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="s">"Eating..."</span><span class="p">)</span>
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="math">Math</h2>
+
+<p>In-line math: $x + y = z$</p>
+
+<p>Block math:</p>
+
+\[x = y\]
+
+<hr />
+
+<h2 id="fragments">Fragments</h2>
+
+<p>Make content appear incrementally</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> One 
+ **Two** 
+ Three 
+</code></pre></div></div>
+
+<p>Press <code class="language-plaintext highlighter-rouge">Space</code> to play!</p>
+
+<p>One 
+ <strong>Two</strong> 
+ Three</p>
+
+<hr />
+
+<p>A fragment can accept two optional parameters:</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">class</code>: use a custom style (requires definition in custom CSS)</li>
+  <li><code class="language-plaintext highlighter-rouge">weight</code>: sets the order in which a fragment appears</li>
+</ul>
+
+<hr />
+
+<h2 id="speaker-notes">Speaker Notes</h2>
+
+<p>Add speaker notes to your presentation</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">
+-</span> Only the speaker can read these notes
+<span class="p">-</span> Press <span class="sb">`S`</span> key to view
+
+</code></pre></div></div>
+
+<p>Press the <code class="language-plaintext highlighter-rouge">S</code> key to view the speaker notes!</p>
+
+<ul>
+  <li>Only the speaker can read these notes</li>
+  <li>Press <code class="language-plaintext highlighter-rouge">S</code> key to view</li>
+</ul>
+
+<hr />
+
+<h2 id="themes">Themes</h2>
+
+<ul>
+  <li>black: Black background, white text, blue links (default)</li>
+  <li>white: White background, black text, blue links</li>
+  <li>league: Gray background, white text, blue links</li>
+  <li>beige: Beige background, dark text, brown links</li>
+  <li>sky: Blue background, thin dark text, blue links</li>
+</ul>
+
+<hr />
+
+<ul>
+  <li>night: Black background, thick white text, orange links</li>
+  <li>serif: Cappuccino background, gray text, brown links</li>
+  <li>simple: White background, black text, blue links</li>
+  <li>solarized: Cream-colored background, dark green text, blue links</li>
+</ul>
+
+<hr />
+
+<h2 id="custom-slide">Custom Slide</h2>
+
+<p>Customize the slide style and background</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="sb">
+
+
+</span></code></pre></div></div>
+
+<hr />
+
+<h2 id="custom-css-example">Custom CSS Example</h2>
+
+<p>Let’s make headers navy colored.</p>
+
+<p>Create <code class="language-plaintext highlighter-rouge">assets/css/reveal_custom.css</code> with:</p>
+
+<div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.reveal</span> <span class="nt">section</span> <span class="nt">h1</span><span class="o">,</span>
+<span class="nc">.reveal</span> <span class="nt">section</span> <span class="nt">h2</span><span class="o">,</span>
+<span class="nc">.reveal</span> <span class="nt">section</span> <span class="nt">h3</span> <span class="p">{</span>
+  <span class="nl">color</span><span class="p">:</span> <span class="no">navy</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<hr />
+
+<h1 id="questions">Questions?</h1>
+
+<p><a href="https://spectrum.chat/academic">Ask</a></p>
+
+<p><a href="https://sourcethemes.com/academic/docs/managing-content/#create-slides">Documentation</a></p>
